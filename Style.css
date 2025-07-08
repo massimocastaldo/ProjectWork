@@ -1,0 +1,100 @@
+/* Stile base della pagina */
+body { 
+    background-color: rgb(128, 200, 255); /* colore del background  */
+    text-align: center; /* Allineamento centrale del testo   */
+    margin: 0; /* Rimozione totale dei margini  */
+    padding: 0; 
+    flex-direction: column; /* uso di flexbox per disporre i contenuti uno sotto l'altro  */
+    
+}
+
+/* Stile della navigation bar */
+.TopNavBar { /* riferimento alla classe 'navbar'  */
+  height: 100px; /* altezza della navbar  */
+  background-color: rgb(32, 30, 67); /* centra verticalmente  l'elemento rpesente al suo interno */
+  /* non necessitiamo di altri attributi per centrare il logo perche' abbiamo solo un elemento che sarebbe il logo   */
+} 
+ 
+.logo { /* Lavorazione diretta sull'immagine 'Sicurezza & Consulenza LOGO.png'  */
+    height: 90px; /* Regolazione grandezza del logo  */
+  }
+
+/* Stile del contenitore contente l'immagine  */
+.ImageTop { /* contenitore dell'immagine definendo larghezza e lunghezza  */
+    width: 100%;
+    height: 300px;
+} 
+
+/* Stile dell'immagine 'Sicurezza-scaled.jpg ' */
+.image {
+    width: 100%;
+    height: 110%;
+    object-fit:cover; /* proprieta' che specifica come la foto deve essere ridimensionata  */
+} 
+
+
+/* Stile dei contenitori per i titoli e il testo */
+.content {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    padding: 30px;
+    font-size: larger; /* Impostazione della grandezza relativamente GRANDE  */
+    
+}
+/* Stile dei testi descrittivi sotto ogni titolo */
+p { 
+     color: black;
+     font-size: large;
+     font-family: Arial, sans-serif;
+     text-align:justify;
+
+}
+/* Stile di ogni titolo */
+h1 {
+    color: yellow;
+    font-family: Arial, sans-serif;
+}
+
+/* Stile del footer */
+.footer { /* footer prinncipale contente tutti gli elementi */
+    background-color: rgb(32, 30, 67);
+    color: white;
+    padding: 20px 0;
+    text-align: center; /* allienamento degli oggetti centralmente */
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Stile delle icone social */
+.social-icons a {
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+    display: inline-block;
+}
+/* Stile del testo situato sopra le icone  */
+.text {
+    color: white;
+    text-align: center;
+}
+/* stile del bottone di download */
+
+.button { 
+    background-color: rgb(255, 255, 128);
+    border: none; /* eliminazione dei bordi  */
+    color: black; /* colore del testo  */
+    font-weight: bold; /* grassetto applicato al testo  */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px; /* ingrandimento in maniera uniforme del bottone */
+    text-align: center; /* testo centrato rispetto il bottone  */
+    text-decoration: none;
+    font-size: large;
+    margin: 40px ;
+    margin-top: -10px; /* distanza del bottone dalle scritte sopra di esso  */
+    cursor: pointer; /* cambio modalita'del cursore una volta passato sopra il bottone  */
+    width: 18%; 
+    border-radius: 10px; /* percentuale arrotondamento bordi */
+    display: inline-block; /* rende il bottone stiizzabile e lo separa da altri elementi  */
+
+}
